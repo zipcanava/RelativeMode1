@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_backgroud"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo"
+        >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imglogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Phần mềm hồ trợ lập biên bản giao thông"
+        android:textColor="#DC143C"
+        android:textSize="18dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        >
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tk"
+        android:id="@+id/text3"
+        android:background="@drawable/vien"
+        android:textColor="@color/black"
+        android:layout_below="@id/text2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="16dp">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật Khẩu"
+        android:id="@+id/text4"
+        android:background="@drawable/vien"
+        android:textColor="@color/black"
+        android:layout_below="@id/text3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="16dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnxacnhan"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/text4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Đăng Nhập"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@android:color/holo_green_light">
+
+    </Button>
+
+</RelativeLayout>

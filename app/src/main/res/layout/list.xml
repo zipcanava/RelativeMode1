@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+        android:id="@+id/ln_a"
+       android:layout_height="60dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="NHẬP MÃ"
+           android:textColor="@color/black"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="20dp"
+           android:textSize="20dp">
+       </TextView>
+       <EditText
+           android:layout_width="160dp"
+           android:layout_height="40dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/vien">
+       </EditText>
+       <Button
+           android:layout_width="80dp"
+           android:layout_height="50dp"
+           android:layout_marginLeft="10dp"
+           android:backgroundTint="#8BC34A"
+           android:layout_marginTop="12dp"
+           android:text="Tìm">
+       </Button>
+   </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/ln_a"
+        android:id="@+id/dsbb"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="DANH SÁCH BIÊN BẢN">
+    </TextView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_below="@id/dsbb"
+        android:layout_marginTop="10dp"
+        >
+    </ListView>
+</RelativeLayout>

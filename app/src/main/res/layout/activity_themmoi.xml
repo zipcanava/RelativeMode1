@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_backgroud"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout_1"
+        android:layout_margin="8dp"
+        android:background="@drawable/vien"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/txt_mabienban"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MÃ BIÊN BẢN"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp">
+        </TextView>
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Thêm biên bản"
+            app:backgroundTint="#8BC34A">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="580dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/layout_1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <EditText
+                android:id="@+id/txt_cmnd"
+                android:hint="CMND"
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp"
+                >
+            </EditText>
+            <Button
+                android:id="@+id/btn_voice"
+                android:layout_width="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="40dp"
+                app:backgroundTint="#8BC34A"
+                android:layout_marginBottom="5dp"
+                app:icon="@drawable/ic_baseline_keyboard_voice_24">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <EditText
+                android:id="@+id/txt_ten"
+                android:hint="Ho va Ten"
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_voice1"
+                android:layout_width="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="40dp"
+                app:backgroundTint="#8BC34A"
+                app:icon="@drawable/ic_baseline_keyboard_voice_24">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <EditText
+                android:id="@+id/txt_ngaysinh"
+                android:hint="Ngay sinh"
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_voice2"
+                android:layout_width="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="40dp"
+                app:backgroundTint="#8BC34A"
+                app:icon="@drawable/ic_baseline_keyboard_voice_24">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <EditText
+                android:id="@+id/txt_quoctich"
+                android:hint="Quoc Tich"
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_voice3"
+                android:layout_width="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="40dp"
+                app:backgroundTint="#8BC34A"
+                app:icon="@drawable/ic_baseline_keyboard_voice_24">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <EditText
+                android:id="@+id/txt_diachi"
+                android:hint="Dia Chi"
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_voice4"
+                android:layout_width="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="40dp"
+                app:backgroundTint="#8BC34A"
+                app:icon="@drawable/ic_baseline_keyboard_voice_24">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <EditText
+                android:id="@+id/txt_sdt"
+                android:hint="So Dien Thoai"
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_voice5"
+                android:layout_width="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="40dp"
+                app:backgroundTint="#8BC34A"
+                app:icon="@drawable/ic_baseline_keyboard_voice_24">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <EditText
+                android:id="@+id/txt_bsxe"
+                android:hint="Bien So Xe"
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_voice6"
+                android:layout_width="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="40dp"
+                app:backgroundTint="#8BC34A"
+                app:icon="@drawable/ic_baseline_keyboard_voice_24">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <EditText
+                android:id="@+id/txt_time"
+                android:hint="Thoi Gian"
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_voice7"
+                android:layout_width="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="40dp"
+                app:backgroundTint="#8BC34A"
+                app:icon="@drawable/ic_baseline_keyboard_voice_24">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <EditText
+                android:id="@+id/txt_tamgiu"
+                android:hint="Tam Giu"
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_voice8"
+                android:layout_width="60dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="40dp"
+                app:backgroundTint="#8BC34A"
+                app:icon="@drawable/ic_baseline_keyboard_voice_24">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:backgroundTint="#8BC34A"
+                android:text="Them Loi">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <EditText
+                android:id="@+id/txt_xacnhan"
+                android:hint="Mã Xác Nhận"
+                android:layout_width="270dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="50dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_xacnhan"
+                android:layout_width="70dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="50dp"
+                app:backgroundTint="#8BC34A"
+                android:text="SMS">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

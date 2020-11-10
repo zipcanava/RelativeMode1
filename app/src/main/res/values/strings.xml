@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VReport</string>
+    <string name="home">Home</string>
+    <string name="add">Add</string>
+    <string name="notifi">Notifi</string>
+    <string name="List" />
+    <string name="account">Account</string>
+    <string name="list">List</string>
+    <string name="ho_va_ten">Ho va Ten</string>
+    <string name="tk">Tài Khoản</string>
+</resources>
